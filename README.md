@@ -8,7 +8,6 @@ Ce projet est une solution complète pour l'analyse des données éducatives, co
 - Analyser l'impact des politiques de gratuité sur la durée des études
 - Évaluer la rétention scolaire dans différentes régions
 - Créer des visualisations interactives pour l'exploration des données
-- Générer des présentations automatiques des résultats
 
 ## Structure du Projet
 
@@ -17,14 +16,12 @@ Ce projet est une solution complète pour l'analyse des données éducatives, co
 ├── data_collectors/          # Scripts de collecte de données
 │   ├── unesco_collector.py   # Données UNESCO UIS
 │   ├── worldbank_collector.py # Données World Bank
-│   └── geonames_collector.py # Données géographiques
 ├── data_processing/          # Traitement des données
 │   ├── data_cleaner.py      # Nettoyage des données
 │   └── data_merger.py       # Fusion des données
 ├── data/                    # Stockage des données
 ├── EDA.ipynb               # Notebook d'analyse exploratoire
 ├── dashboard.py            # Interface interactive Streamlit
-├── create_presentation.py  # Génération de présentations
 ├── main.py                 # Point d'entrée principal
 ├── config.py              # Configuration du projet
 └── requirements.txt       # Dépendances Python
@@ -80,12 +77,6 @@ Pour lancer le dashboard interactif :
 streamlit run dashboard.py
 ```
 
-### 4. Génération de Présentation
-
-Pour créer une présentation automatique des résultats :
-```bash
-python create_presentation.py
-```
 
 ## Fonctionnalités Principales
 
@@ -93,5 +84,5 @@ python create_presentation.py
 - **Traitement** : Nettoyage, normalisation et fusion des données
 - **Visualisation** : Dashboard interactif avec Streamlit
 - **Analyse** : Notebook Jupyter pour l'exploration approfondie
-- **Présentation** : Génération automatique de présentations PowerPoint
+
 
