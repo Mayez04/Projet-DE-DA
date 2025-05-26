@@ -1,0 +1,1 @@
+"""Module pour traiter et fusionner les données collectées.""" 
